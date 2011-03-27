@@ -1,0 +1,13 @@
+{
+  "name": "stache",
+  "description": "mustache templating for your express apps",
+  "version": "0.0.2",
+  "authors": ["Jacob Thornton <@fat>"],
+  "keywords": ["mustache", "express", "stache"],
+  "main": "./index.js",
+  "engines": { "node": ">= 0.4.1" },
+  "dependencies": {
+    "mustache": ">= 0.2.3",
+    "express": ">= 2.1.0"
+  }
+}
