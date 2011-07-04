@@ -2,13 +2,27 @@
 var express = require('express')
   , app = express.createServer();
 
-//config
+// config
 app.set('view engine', 'mustache')
 app.set("views", __dirname + '/views');
 app.register(".mustache", require('stache'));
 app.use(express.static(__dirname + '/public'));
 
-//routes
+// helpers
+app.helpers({
+  helloworld: function(req, res){
+    return 'hello world';
+  }
+});
+
+// dynamicHelpers
+app.dynamicHelpers({
+  hellopage: function(req, res){
+    return req.url;
+  }
+});
+
+// routes
 app.get('/', function (req, res) {
   res.render('index', {
     locals: {
