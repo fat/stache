@@ -1,7 +1,7 @@
 {
   "name": "stache",
   "description": "mustache templating for your express apps",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "authors": ["Jacob Thornton <@fat>"],
   "keywords": ["mustache", "express", "stache"],
   "main": "./index.js",
