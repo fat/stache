@@ -84,7 +84,7 @@ Stache supports layouts! *swaggg!* Which means you can have something like this:
     </body>
     </html>
 
-Note: yield is a special local var, which will be replaced automatically by the template you specified with res.render.
+Note: <code>yield</code> is a special local var, which will be replaced automatically by the template you specified with res.render. Alternatively you can use the keyword <code>body</code>.
 
 
 Partials
