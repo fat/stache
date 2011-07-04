@@ -47,7 +47,7 @@ app.get('/', function (req, res) {
 
 Notice you can pass local vars here as well as partials to your templates.
 
-You can also now use mustache with helpers and dynamicHelpers!
+You can also use helpers to pass mustache dynamic content!
 
 ```javascript
 // helpers
@@ -66,25 +66,24 @@ app.dynamicHelpers({
 ```
 
 Reference these just like you would locals:
-```html
+
     You are currently viewing: {{page}}
-```
 
 Layouts
 -------
 
 Stache supports layouts! *swaggg!* Which means you can have something like this:
-```html
-<!-- layout.mustache -->
-<html>
-<head>
-  {{>scripts}}
-</head>
-<body>
-  {{{yield}}}
-</body>
-</html>
-```
+
+    <!-- layout.mustache -->
+    <html>
+    <head>
+      {{>scripts}}
+    </head>
+    <body>
+      {{{yield}}}
+    </body>
+    </html>
+
 Note: yield is a special local var, which will be replaced automatically by the template you specified with res.render.
 
 
