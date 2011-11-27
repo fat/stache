@@ -3,6 +3,11 @@
   "description": "mustache templating for your express apps",
   "version": "0.1.0",
   "authors": ["Jacob Thornton <@fat>"],
+  "contributors":[ {
+    "name": "Robert McGuinness",
+    "email": "robert.mcguinness.iii@gmail.com",
+    "url": "http://www.robmcguinness.com",
+  }],
   "keywords": ["mustache", "express", "stache"],
   "main": "./index.js",
   "engines": { "node": ">= 0.4.1" },
