@@ -6,7 +6,7 @@
   "contributors":[ {
     "name": "Robert McGuinness",
     "email": "robert.mcguinness.iii@gmail.com",
-    "url": "http://www.robmcguinness.com",
+    "url": "http://www.robmcguinness.com"
   }],
   "keywords": ["mustache", "express", "stache"],
   "main": "./index.js",
